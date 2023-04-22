@@ -1,0 +1,41 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+nav{
+	width:100%;
+	height:75px;
+	line-height:75px;
+	padding:0px 100px;
+	position:fixed;
+	background-image:linear-gradient(#033747,#033127)
+}
+.logo h1 p{
+	color:white;
+	font-size:40px;
+	float:left;
+	cursor:pointer;
+	font-weight:bold;
+	transition:all 0.4s ease 0s;
+}
+.logo h1 p:hover{
+	color:#ff8c69;
+}
+nav ul{
+	float:right;
+}
+nav li{
+	display:inline-block;
+	list-style:none;
+}
+nav li a{
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+	padding:0px 30px;
+}
+nav li a:hover{
+	color:#ff8c69;
+	transition:all 0.4s ease 0s;
+}
